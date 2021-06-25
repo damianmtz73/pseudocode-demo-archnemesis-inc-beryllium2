@@ -1,1 +1,35 @@
-// STEP 1:
+ 
+let currentDayOfWeek= new Date().getDay()
+console.log(currentDayOfWeek)
+
+let employeesName= prompt("Please enter your full name.")
+console.log({employeesName})
+
+// if (currentDayOfWeek===1 || currentDayOfWeek=== 5){
+    // document.write(`<h2>You did not work hard is week but by law we have to give you a break<br></h2>`)
+    // document.write(`<h3>You have a long weekend. Do not enjoy it. Be ready to work after the hoilday. </h3>`)
+// }
+let hoursWorked= 35
+
+
+if (currentDayOfWeek===0){
+    document.write(`<h3>Glad you are so excited to work but you can't work on Sunday.</h3>`)
+} else if(currentDayOfWeek===1){
+    document.write(`<h3>Let's have a miserable week at Archnemesis, Inc.</h3>`)
+} else if(currentDayOfWeek===2){
+    document.write
+    (`<h3>ITS TACO TUESDAY.<br></h3>
+    <h4>One taco per person.</h4>`)
+} else if (currentDayOfWeek===3){
+    document.write
+    (`<h3>ITS HUMP DAY<br></h3>
+    <h4>You have better have finish does reports.</h4>`)
+} else if(currentDayOfWeek===4){
+    document.write
+    (`<h3>Today is Thursday.</h3><br>
+    <h4>We are approaching a new work week.</h4>`)
+} else if(currentDayOfWeek===5){
+    document.write(`<h4>I guess today is Friday.Be back here early <em>Monday</em> monring.</h4>`)
+} else if (currentDayOfWeek===6){
+    document.write(`<h3>It's Saturday were was this energy during the work week. </h3>`)
+}
